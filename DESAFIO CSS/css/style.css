@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    /*border: 0;*/
+    box-sizing: border-box;
+  }    
+
+@media (max-width: 300px) {
+    .flex-container {
+      flex-direction:column-reverse;
+    }
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+
+.fundo{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  position: relative;
+  color: rgb(0, 0, 0);
+  flex-wrap: nowrap;
+  width: 600px;
+}
+
+.gif{
+  position: relative;
+  text-align: center;
+  top:-410px;
+  left: -230px;
+       
+}
+
+.titulo{
+  position: absolute;
+  top: 15%;
+  width: 400px;
+  left: 57%;
+  transform: translate(-50%, -50%); 
+  font-size: 30px;
+  font-family: 'Titillium Web', sans-serif;
+  text-shadow: 0 0 0.2em rgb(255, 31, 2), 0 0 0.2em rgb(255, 221, 29);
+}
+.texto{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  font-size: 15px;
+  transform: translate(-50%, -50%);
+  font-family: 'Meow Script', cursive;
+  width: 600px;
+  text-shadow: 0 0 0.2em rgb(247, 165, 154), 0 0 0.2em rgb(235, 234, 228);
+}
+
+.dedicatoria{
+  color: red;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  font-size: 10px;
+  transform: translate(-50%, -50%);
+  font-family: 'Corinthia', cursive;
+  width: 500px;
+  text-shadow: 0 0 0.2em rgb(248, 199, 37), 0 0 0.2em rgb(255, 221, 29);
+}
+
